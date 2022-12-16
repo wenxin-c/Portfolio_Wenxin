@@ -1,0 +1,44 @@
+.ant-menu .ant-menu-item-only-child{
+    padding-left: 25px !important
+}
+
+.ant-menu-title-content{
+    overflow:visible !important; 
+    overflow-wrap:break-word !important
+}
+
+.ant-menu-submenu-title{
+    padding-left: 25px !important
+
+}
+
+.introTitle{
+    font-size: 30px;
+    margin:0px;
+}
+
+.nameTitle{
+    margin-top:6px;
+    margin-left:60px;
+}
+.majorTitle{
+    margin-left:60px;
+}
+
+.introTitle .introText{
+    margin-left:10px;
+}
+
+
+.majorText{
+font-weight:normal
+
+}
+.ant-layout-content{
+    background-image: url("../images/intro_background.jpg") !important;
+   
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:cover; /* Resize the background image to cover the entire container */
+    
+}

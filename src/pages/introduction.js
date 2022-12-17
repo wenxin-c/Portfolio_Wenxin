@@ -1,9 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from "react-dom/client";
 import {RadarChartOutlined , HistoryOutlined, FileDoneOutlined , LaptopOutlined, LikeOutlined , SmileOutlined, UserOutlined } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
-import { Avatar } from 'antd';
 import '../styles/introduction.css'
+import IntroSegment from '../components/intro_segment.js'
+import SkillSegment from '../components/skill_segment.js'
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
+
+
 const { Header, Content, Sider } = Layout;
 const items1 = ["Wenxin's Website"].map((key) => ({
   key,
@@ -21,13 +27,7 @@ const items1 = ["Wenxin's Website"].map((key) => ({
   }
   
   const items2 = [
-    getItem('Skills', 'sub1', <RadarChartOutlined />, [
-        getItem('Full-Stack Development', '1'),
-        getItem('Programming Language', '2'),
-        //getItem('Data Structures & Algorithm', '3'),
-        getItem('Microcontrollers', '4'),
-        getItem('Hardware Circuit Design', '5'),
-      ]),
+    getItem('Skills', 'sub1', <RadarChartOutlined />),
     getItem('Education', 'sub2', <LaptopOutlined />, [
       getItem('NUS', '1'),
       getItem('National Junior College', '2'),
@@ -54,7 +54,7 @@ const items1 = ["Wenxin's Website"].map((key) => ({
     ]),
   ];
 
-
+  const items3 = [<Link to='/Skills'>Skills</Link>, <Link to='/Skills'>Skills</Link>, <Link to='/Skills'>Skills</Link> ];
 
 
 const Introduction = () => {
@@ -63,7 +63,7 @@ const Introduction = () => {
   } = theme.useToken();
   return (
     <Layout>
-      <Header className="header" style={{backgroundColor:'rgb(191,165,142)'}}>
+      <Header className="header" style={{backgroundColor:'rgb(191,165,142)', borderRadius:'4px'}}>
         <div className="logo" />
         <div style={{backgroundColor:'rgb(191,165,142)', fontWeight:'bold', fontSize:'20px'}} mode="horizontal" defaultSelectedKeys={['2']}>Wenxin's Website</div>
       </Header>
@@ -96,30 +96,13 @@ const Introduction = () => {
               margin: '16px 0',
             }}
           >
-           
           </Breadcrumb>
-          <Content
-            style={{
-              padding: 24,
-              margin: 0,
-              minHeight: 280,
-              background: colorBgContainer,
-            }}
-          >
-            <h1 className='introTitle'>
-                <Avatar size={50} icon={<UserOutlined />} />
-                <span className='introText'>Introduction</span>
-                
-            </h1>
-            <h2 className='nameTitle'>
-                <span className='nameText'>Chen Wenxin</span>
-            </h2>
-            <h3 className='majorTitle'>
-                <span className='majorText'>Computer Engineering undergraduate at National University of Singapore</span>
-                
-            </h3>
-            
-          </Content>
+
+
+          
+
+          <Outlet />
+          
         </Layout>
       </Layout>
     </Layout>

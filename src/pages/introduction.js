@@ -31,16 +31,8 @@ const items1 = ["Wenxin's Website"].map((key) => ({
     getItem(<Link to='/Education'>Education</Link>, 'sub3', <LaptopOutlined />,),
     getItem(<Link to='/Projects'>Projects</Link>, 'sub4', <FileDoneOutlined />,),
     getItem(<Link to='/Experience'>Experience</Link>, 'sub5', <HistoryOutlined />, ),
-    getItem('CCA', 'sub6', <LikeOutlined />, [
-      getItem('NUS Guitar Ensemble', '5'),
-      getItem('NUS ECE Club', '6'),
-    ]),
-    getItem('Awards', 'sub7', <SmileOutlined />, [
-      getItem('Option 9', '9'),
-      getItem('Option 10', '10'),
-      getItem('Option 11', '11'),
-      getItem('Option 12', '12'),
-    ]),
+    getItem(<Link to='/CCA'>CCA</Link>, 'sub6', <LikeOutlined />),
+    getItem(<Link to='/Awards'>Awards</Link>, 'sub7', <SmileOutlined />),
   ];
 
   const items3 = [<Link to='/Skills'>Skills</Link>, <Link to='/Skills'>Skills</Link>, <Link to='/Skills'>Skills</Link> ];

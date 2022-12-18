@@ -6,6 +6,8 @@ import '../styles/introduction.css'
 
 const { Header, Content, Sider } = Layout;
 
+/** This function is used to update introduction page */
+
 function IntroSegment(){
     const {
         token: { colorBgContainer },
@@ -40,7 +42,7 @@ function IntroSegment(){
                       One of my habits is to play the guitar.  
                       I'm interested in software engineering for future career. 
                       I'm fluent in programming language C/C++ and have experience in full-stack web-development. 
-                      I also have good knowledge on microcontrollers such as Arduino, Raspberry Pi. <br></br>  <br></br>
+                      I also have good knowledge in microcontrollers such as Arduino, Raspberry Pi. <br></br>  <br></br>
                       More detailed introduction about myself can be found in this website. 
                 </p>
 

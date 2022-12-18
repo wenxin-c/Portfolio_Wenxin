@@ -30,10 +30,7 @@ const items1 = ["Wenxin's Website"].map((key) => ({
     getItem(<Link to='/Skills'>Skills</Link>, 'sub2', <RadarChartOutlined />),
     getItem(<Link to='/Education'>Education</Link>, 'sub3', <LaptopOutlined />,),
     getItem(<Link to='/Projects'>Projects</Link>, 'sub4', <FileDoneOutlined />,),
-    getItem('Experience', 'sub5', <HistoryOutlined />, [
-        getItem('Work', '5', null),
-        getItem('Leadership', 'sub3', null),
-      ]),
+    getItem(<Link to='/Experience'>Experience</Link>, 'sub5', <HistoryOutlined />, ),
     getItem('CCA', 'sub6', <LikeOutlined />, [
       getItem('NUS Guitar Ensemble', '5'),
       getItem('NUS ECE Club', '6'),

@@ -9,24 +9,42 @@ import ExperienceSegment from './components/experience_segment.js'
 import CCASegment from '../src/components/cca_segment.js'
 import AwardsSegment from '../src/components/awards_segment.js'
 import Introduction from '../src/pages/introduction.js'
+import PMaster from '../src/pages/pmaster.js'
+import PosterSegment from '../src/components/pmaster_poster.js'
+import DescriptionSegment from '../src/components/pmaster_description.js'
+import TechSegment from './components/pmaster_tech.js'
+import ScrollToTop from "./pages/wrapper.js";
 
 function App() {
   return (
     <BrowserRouter>
-        <Routes>
-          
-            <Route path="/" element={<Introduction />}>
-                <Route index element={<IntroSegment />} />
-                <Route path="Skills" element={<SkillSegment />} />
-                <Route path="Education" element={<EducationSegment />}/>
-                <Route path="Projects" element={<ProjectSegment />}/>
-                <Route path="Experience" element={<ExperienceSegment />}/>
-                <Route path="CCA" element={<CCASegment />}/>
-                <Route path="Awards" element={<AwardsSegment />} />
-            </Route>
-            
-          
-        </Routes>
+    <ScrollToTop>
+        <div className="App">
+          <header className="App-header">
+            <Routes>
+              
+                <Route path="/" element={<Introduction />}>
+                    <Route index element={<IntroSegment />} />
+                    <Route path="Skills" element={<SkillSegment />} />
+                    <Route path="Education" element={<EducationSegment />}/>
+                    <Route path="Projects" element={<ProjectSegment />}>
+                        
+                    </Route>
+                    <Route path="Experience" element={<ExperienceSegment />}/>
+                    <Route path="CCA" element={<CCASegment />}/>
+                    <Route path="Awards" element={<AwardsSegment />} />
+                </Route>
+                <Route path="/Projects/PMaster" element={<PMaster />}>
+                    <Route index element={<DescriptionSegment />} />
+                    <Route path="Poster" element={<PosterSegment />} />
+                    <Route path="Tech" element={<TechSegment/>}/>
+                </Route>
+                
+              
+            </Routes>
+          </header>
+        </div>
+      </ScrollToTop>
     </BrowserRouter>
   );
 }

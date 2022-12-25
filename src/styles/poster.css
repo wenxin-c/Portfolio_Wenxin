@@ -1,0 +1,10 @@
+.site-layout-content img{
+    width:50%;
+    padding-bottom: 30px ;
+    
+}
+.site-layout-content{
+    display:flex;
+    align-content:center;
+    justify-content:center;
+}

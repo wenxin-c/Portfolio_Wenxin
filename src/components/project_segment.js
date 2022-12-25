@@ -7,6 +7,9 @@ import MBot_profile from '../images/MBot_profile.png'
 import Alex_profile from '../images/Alex_profile.png'
 import ESTaR_profile from '../images/ESTaR_profile.jpg'
 import Ongoing from '../images/Ongoing.png'
+import { Outlet, Link } from "react-router-dom";
+
+
 const { Meta } = Card;
 const { Header, Content, Sider } = Layout;
 
@@ -101,7 +104,7 @@ function ProjectSegment(){
                         </p>
                         <p>Ashievement: Apollo 11</p>
                         <p>Project Link: <a href='https://orbital-pmaster-backend.herokuapp.com/' target='_blank'>Link</a></p>
-                        <button>Learn More</button>
+                        <button><Link to='/Projects/PMaster'>Learn More</Link></button>
                         </div>
                     />
                 

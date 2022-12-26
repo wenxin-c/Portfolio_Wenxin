@@ -13,6 +13,7 @@ import PMaster from '../src/pages/pmaster.js'
 import PosterSegment from '../src/components/pmaster_poster.js'
 import DescriptionSegment from '../src/components/pmaster_description.js'
 import TechSegment from './components/pmaster_tech.js'
+import ScreenshotSegment from './components/pmaster_screenshot.js'
 import ScrollToTop from "./pages/wrapper.js";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
                     <Route index element={<DescriptionSegment />} />
                     <Route path="Poster" element={<PosterSegment />} />
                     <Route path="Tech" element={<TechSegment/>}/>
+                    <Route path="Screenshot" element={<ScreenshotSegment />} />
                 </Route>
                 
               

@@ -64,6 +64,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 ### Deployment
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+1. Add homepage url
+2. Add scripts in package.json
+3. Add basename(i.e. /RepositoryName) for BrowserRouter tag(otherwise there will be a blank page)
+4. Git add .
+5. Git commit -m
+6. Git push
+7. npm run deploy will generate a gh-pages branch and auto fill in
+8. Adjust repository page setting
+9. Note: need mannually delete /mode_modules/.cache/gh-pages files if wish to delete the branch and generate new deploy again
 
 ### `npm run build` fails to minify
 

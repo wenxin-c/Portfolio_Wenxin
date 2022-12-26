@@ -18,7 +18,7 @@ import ScrollToTop from "./pages/wrapper.js";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/Portfolio_Wenxin'>
     <ScrollToTop>
         <div className="App">
           <header className="App-header">

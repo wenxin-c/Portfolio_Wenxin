@@ -1,0 +1,20 @@
+.ant-collapse-content{
+    width:70vw;
+}
+.ant-collapse-header{
+    background-color:#e0e0e0;
+}
+.photoWrapper{
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    height: '500px';
+    color: '#fff';
+    background: '#364d79';
+}
+.ccaTitle{
+    font-size: 26px;
+    margin-top:0;
+    margin-bottom: 20px
+
+}

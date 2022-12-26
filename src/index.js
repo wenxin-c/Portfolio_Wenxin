@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Introduction from '../src/pages/introduction.js'
+import PMaster from '../src/pages/pmaster.js'
 
 
 import App from './App';

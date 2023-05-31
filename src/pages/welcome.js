@@ -1,14 +1,23 @@
 import React, {useEffect, useState} from 'react';
+import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import "../styles/welcome.css"
-import starryNight from "../images/starry night.jpg"
 
 function Welcome() {
-
     const [btnState, setBtnState] = useState("none");
+
     const styles = {
         // backgroundImage: "url('../images/starry night.jpg') !important",
         
+        /*
+        flex-direction: decides on arranging items vertically or horizontally(i.e. main axis)
+        flex - wrap: decides how items should be wrapped around
+        justify-content: decides how to arrange items on main-axis
+        align-items: decides how to lay out items on cross-axis(i.e. perpendicular to main axis)(single row)
+        align-content: decides how to arrange items on cross-axis(i.e. perpendicular to main axis)(mutiple rows similar to justify-content)
+        Website to learn felxbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+        */
+
         display:"flex",
         flexDirection:"column",
         justifyContent:"center",
@@ -19,33 +28,38 @@ function Welcome() {
         fontWeight:"bold"
     }
 
+    // Render button some time after the typewriter starts
+    // Render only once after timeout
     useEffect(() => {
         setTimeout(() => {
           setBtnState("block");
-        }, 18000);
+        }, 14500);
       },[]);
 
     return (
         <div className = "welcome">
             <div  style={styles}>
+
+                {/* Import Typewriter to implememnt typing effect.
+                Specifiy what to type in typeString method */}
                 <Typewriter 
 
-                // typeSpeed={250}
                 onInit={(typewriter)=> {
                 typewriter
-                    .typeString("Hi, I'm Wenxin, an undergradute major in Computer Engineering at NUS.<br>"
+                    .typeString("Hi, I'm Wenxin, an undergraduate major in Computer Engineering at NUS.<br>"
                     + "Click on the button below to check out more about me!"
                     )
-                    .pauseFor(100)
+                    .pauseFor(1000)
                     // .deleteAll()
-                    // .typeString("Welcomes You")
                     .start();
                     }}
 
                 />
                 <br></br>
                 <br></br>
-                <button className = "exploreBtn" style = {{display:btnState}}>MORE</button>
+
+                {/* Link that directs to introduction page */}
+                <button className = "exploreBtn" role="button" style = {{display:btnState}}><Link to='/wx' style = {{color:"black", lineDecoration:"none"}}>MORE</Link></button>
 
             </div>
         </div>

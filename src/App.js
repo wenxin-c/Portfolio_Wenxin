@@ -26,7 +26,7 @@ function App() {
             <Routes>
               
                 <Route path="/" element={<Welcome />}></Route>
-                {/* <Route path="/" element={<Introduction />}>
+                <Route path="/wx" element={<Introduction />}>
                     <Route index element={<IntroSegment />} />
                     <Route path="Skills" element={<SkillSegment />} />
                     <Route path="Education" element={<EducationSegment />}/>
@@ -37,7 +37,7 @@ function App() {
                     <Route path="CCA" element={<CCASegment />}/>
                     <Route path="Awards" element={<AwardsSegment />} />
                 </Route>
-                <Route path="/Projects/PMaster" element={<PMaster />}>
+                {/* <Route path="/Projects/PMaster" element={<PMaster />}>
                     <Route index element={<DescriptionSegment />} />
                     <Route path="Poster" element={<PosterSegment />} />
                     <Route path="Tech" element={<TechSegment/>}/>

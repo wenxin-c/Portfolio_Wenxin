@@ -16,6 +16,7 @@ import TechSegment from './components/pmaster_tech.js'
 import ScreenshotSegment from './components/pmaster_screenshot.js'
 import ScrollToTop from "./pages/wrapper.js";
 import Welcome from '../src/pages/welcome.js'
+import "./styles/app.css"
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
             <Routes>
               
                 <Route path="/" element={<Welcome />}></Route>
-                <Route path="/wx" element={<Introduction />}>
+                <Route path="/Content" element={<Introduction />}>
                     <Route index element={<IntroSegment />} />
                     <Route path="Skills" element={<SkillSegment />} />
                     <Route path="Education" element={<EducationSegment />}/>

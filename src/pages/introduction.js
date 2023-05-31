@@ -1,19 +1,13 @@
 import React from 'react';
 import ReactDOM from "react-dom/client";
 import {RadarChartOutlined , HistoryOutlined, FileDoneOutlined , LaptopOutlined, LikeOutlined , SmileOutlined, UserOutlined, HeartOutlined} from '@ant-design/icons';
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
+import {Layout, Menu, theme } from 'antd';
 import '../styles/introduction.css'
 
-
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Outlet, Link } from "react-router-dom";
 
 
-const { Header, Content, Sider } = Layout;
-const items1 = ["Wenxin's Website"].map((key) => ({
-  key,
-  label: `${key}`,
-}));
+const { Sider } = Layout;
 
   function getItem(label, key, icon, children, type) {
     return {
@@ -25,7 +19,7 @@ const items1 = ["Wenxin's Website"].map((key) => ({
     };
   }
   
-  const items2 = [
+  const items = [
     getItem(<Link to='/'>Introduction</Link>, 'sub1', <HeartOutlined />),
     getItem(<Link to='/Skills'>Skills</Link>, 'sub2', <RadarChartOutlined />),
     getItem(<Link to='/Education'>Education</Link>, 'sub3', <LaptopOutlined />,),
@@ -35,58 +29,34 @@ const items1 = ["Wenxin's Website"].map((key) => ({
     getItem(<Link to='/Awards'>Awards</Link>, 'sub7', <SmileOutlined />),
   ];
 
-  const items3 = [<Link to='/Skills'>Skills</Link>, <Link to='/Skills'>Skills</Link>, <Link to='/Skills'>Skills</Link> ];
 
+  const Introduction = () => {
+    const {
+      token: { colorBgContainer },
+    } = theme.useToken();
+    return (
+      <div className = "introduction">
 
-const Introduction = () => {
-  const {
-    token: { colorBgContainer },
-  } = theme.useToken();
-  return (
-    <Layout>
-      <Header className="header" style={{backgroundColor:'rgb(191,165,142)', borderRadius:'4px'}}>
-        <div className="logo" />
-        <div style={{backgroundColor:'rgb(191,165,142)', fontWeight:'bold', fontSize:'20px'}} mode="horizontal" defaultSelectedKeys={['2']}>Wenxin's Website</div>
-      </Header>
-      <Layout>
-        <Sider
-          width={200}
-          style={{
-            background: colorBgContainer,
-          }}
-        >
-          <Menu
-            mode="inline"
-            defaultSelectedKeys={['1']}
-            defaultOpenKeys={['sub1']}
-            style={{
-              height: '100%',
-              borderRight: 0,
-              
-            }}
-            items={items2}
-          />
-        </Sider>
-        <Layout
-          style={{
-            padding: '0 24px 24px',
-          }}
-        >
-          <Breadcrumb
-            style={{
-              margin: '16px 0',
-            }}
-          >
-          </Breadcrumb>
+        <div className = "innerBox">
+            <Sider width={200} style={{background: colorBgContainer}}>
+                <Menu
+                  mode="inline"
+                  defaultSelectedKeys={['1']}
+                  defaultOpenKeys={['sub1']}
+                  style={{
+                    height: '100%',
+                    borderRight: 0,
+                    
+                  }}
+                  items={items}
+                />
+            </Sider>
 
+            <Outlet />
+        </div>
 
-          
+      </div>
+    );
+  };
 
-          <Outlet />
-          
-        </Layout>
-      </Layout>
-    </Layout>
-  );
-};
-export default Introduction;
+  export default Introduction;

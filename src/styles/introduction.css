@@ -1,3 +1,18 @@
+.introduction{
+    height:100vh;
+    background-color: #fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.innerBox{
+    height: 95vh;
+    width: 95vw;
+    border: solid rgb(64, 64, 64) 2px;
+    display:flex;
+}
+
 .ant-menu .ant-menu-item-only-child{
     padding-left: 25px !important
 }
@@ -12,51 +27,17 @@
 
 }
 
-.introTitle{
-    display:flex;
-    font-size: 40px;
-    margin:0px;
-    
-}
-.introContent{
-    margin-left:60px;
-    margin-right:60px;
-}
-.nameTitle{
-    margin-left:60px;
-}
-.linkTitle{
-    margin-left:60px;
+.ant-menu .ant-menu-item-only-child{
+    padding-left: 25px !important
 }
 
-.introTitle .introText{
-    margin-left:24px;
-    margin-top:22px;
+.ant-menu-title-content{
+    overflow:visible !important; 
+    overflow-wrap:break-word !important
 }
 
-
-.linkText{
-    font-weight:600;
-    font-size:14px;
-}
-
-.contentText{
-    margin-left:60px;
-    margin-right:50px;
-    font-weight:600;
-}
-.ant-layout-content{
-    min-height: 80vh !important;
-
-    padding-top:0px !important;
-    background-image: url("../images/intro_background.jpg") !important;
-    background-repeat: no-repeat !important;
-  /*background-attachment: fixed !important;*/
-  background-size:cover !important; /* Resize the background image to cover the entire container */
-    
-}
- 
-.ant-layout{
-    min-height: 88vh !important;
+.ant-menu-submenu-title{
+    padding-left: 25px !important
 
 }
+

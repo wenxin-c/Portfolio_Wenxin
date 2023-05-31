@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
 import profile_pic from '../images/profile_pic1.png'
-import '../styles/introduction.css'
+import '../styles/intro_segment.css'
 
 const { Header, Content, Sider } = Layout;
 
@@ -14,8 +14,7 @@ function IntroSegment(){
       } = theme.useToken();
     return (
         <div>
-            <Content
-            style={{
+            <Content style={{
               padding: 24,
               margin: 0,
               minHeight: 280,
@@ -24,8 +23,6 @@ function IntroSegment(){
           >
             <h1 className='introTitle'>
                 <img src={profile_pic} width='90px' height='90px'></img>
-                <span className='introText'>Introduction</span>
-                
             </h1>
             <div className='introContent'>
                 <h2 className='nameTitle'>

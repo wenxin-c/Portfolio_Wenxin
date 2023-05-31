@@ -1,0 +1,48 @@
+.introTitle{
+    display:flex;
+    justify-content: center;
+    margin:0;
+    padding-top:10px; 
+}
+.introContent{
+    margin-left:60px;
+    margin-right:60px;
+}
+.nameTitle{
+    margin-left:60px;
+}
+.linkTitle{
+    margin-left:60px;
+}
+
+.introTitle .introText{
+    margin-left:24px;
+    margin-top:22px;
+}
+
+
+.linkText{
+    font-weight:600;
+    font-size:14px;
+}
+
+.contentText{
+    margin-left:60px;
+    margin-right:50px;
+    font-weight:600;
+}
+.ant-layout-content{
+    min-height: 80vh !important;
+
+    padding-top:0px !important;
+    background-image: url("../images/intro_background.jpg") !important;
+    background-repeat: no-repeat !important;
+  background-size:cover !important; 
+    
+}
+ 
+.ant-layout{
+    min-height: 88vh !important;
+
+}
+

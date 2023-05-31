@@ -59,7 +59,7 @@ function Welcome() {
                 <br></br>
 
                 {/* Link that directs to introduction page */}
-                <button className = "exploreBtn" role="button" style = {{display:btnState}}><Link to='/wx' style = {{color:"black", lineDecoration:"none"}}>MORE</Link></button>
+                <button className = "exploreBtn" role="button" style = {{display:btnState}}><Link to='/Content' style = {{color:"black", lineDecoration:"none"}}>MORE</Link></button>
 
             </div>
         </div>

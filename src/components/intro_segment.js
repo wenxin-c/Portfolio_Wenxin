@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
-import profile_pic from '../images/profile_pic1.png'
+import linkedin from "../images/linkedin.png";
+import github from "../images/github.png";
 import '../styles/intro_segment.css'
 
 const { Header, Content, Sider } = Layout;
@@ -13,7 +14,7 @@ function IntroSegment(){
         token: { colorBgContainer },
       } = theme.useToken();
     return (
-        <div>
+        <div className = "introSegment">
             <Content style={{
               padding: 24,
               margin: 0,
@@ -21,28 +22,30 @@ function IntroSegment(){
               background: colorBgContainer,
             }}
           >
-            <h1 className='introTitle'>
-                <img src={profile_pic} width='90px' height='90px'></img>
-            </h1>
-            <div className='introContent'>
-                <h2 className='nameTitle'>
-                    <span className='nameText'>Chen Wenxin</span>
-                </h2>
-                <h3 className='linkTitle'>
-                    <span className='linkText'>
-                      LinkedIn: <a href="https://www.linkedin.com/in/wenxin-chen-0825" target="_blank">Link</a> <br></br>
-                      Github: <a href="https://github.com/wenxin-c" target="_blank">Link</a>
-                    </span>  
-                </h3>
-                <p className='contentText'>
-                      Hi, I'm Wenxin, an undergradute major in Computer Engineering at National University of Singapore. 
-                      One of my habits is to play the guitar.  
-                      I'm interested in software engineering for future career. 
-                      I'm fluent in programming language C/C++ and have experience in full-stack web-development. 
-                      I also have good knowledge in microcontrollers such as Arduino, Raspberry Pi. <br></br>  <br></br>
-                      More detailed introduction about myself can be found in this website. 
-                </p>
+            <div className ='introContent'>
+              <div className = "contentWrapper">
+                  <h2 className='nameTitle'>
+                      <span className='nameText'>Chen Wenxin</span>
+                  </h2>
+                  <p className = "preview">
+                      I'm Wenxin, currently an undergraduate majoring in Computer Engineering 
+                      at National University of Singapore. 
+                      <br/>
+                      I'm interested to be a Software Engineer in the future. <br/>
+                      I like watching dramas, listening to kpop songs or hanging out with friends during my free time.<br/>
+                      Oh yes, I'm a durian fan :D <br/>
+                      <br/>
 
+                      Use the side navigation bar to learn more about me!!
+
+                  </p>
+                  <h3 className='linkTitle'>
+                      <a href="https://www.linkedin.com/in/wenxin-chen-0825" target="_blank"><img src = {linkedin} alt = "Linkedin Page" height="40px"/></a> <br></br>
+                      <a href="https://github.com/wenxin-c" target="_blank"><img src = {github} alt = "Github Page" height="65px"/></a>
+                  </h3>
+              </div>
+                
+              <div className = "dynamic-picture"></div>
             </div>
             
           </Content>

@@ -18,7 +18,7 @@ function IntroSegment(){
             <Content style={{
               padding: 24,
               margin: 0,
-              minHeight: 280,
+              minHeight: "280px",
               background: colorBgContainer,
             }}
           >

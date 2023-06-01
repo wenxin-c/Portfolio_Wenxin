@@ -1,16 +1,21 @@
 .introduction{
-    height:100vh;
+    min-height:100vh;
     background-color: #fff;
     display:flex;
     justify-content:center;
     align-items:center;
 }
 
+/* Min-height = 100vh - margin-top - margin-bottom 
+Need to use min-height instead of height so that the length will grow
+based on content length if content happens to be longer than one page*/
 .innerBox{
-    height: 95vh;
+    margin:7px;
+    min-height: 86vh;
     width: 97vw;
     border: solid rgb(64, 64, 64) 2px;
     display:flex;
+    padding:0;
 }
 
 .sideBar{
@@ -21,6 +26,12 @@
     width: 15%;
 }
 
+.subsections{
+    width:85%;
+    min-height:86vh;
+}
+
+/* This is the flower image at side bar */
 img{
     margin-top: 20px;
     margin-bottom:10px;

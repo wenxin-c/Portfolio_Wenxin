@@ -1,10 +1,10 @@
 .introSegment{
-    width:85%
+    min-height:86vh;
 }
 
 .ant-layout-content{
     /* This has padding of 24px */
-    height: 91.2% !important;
+    min-height: 86vh !important;
     background-image: url("../images/intro_background.jpg") !important;
     background-repeat: no-repeat !important;
     background-size:cover !important; 
@@ -22,7 +22,6 @@
     justify-content: flex-start;
     align-items: center;
     width: 75%;
-    /* padding-left:20px; */
 }
 
 .nameTitle{
@@ -41,7 +40,6 @@
 }
 
 .linkTitle{
-    /* margin-left:60px; */
     display:flex;
     flex-direction: row;
     justify-content: space-around;

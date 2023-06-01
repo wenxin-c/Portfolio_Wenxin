@@ -17,9 +17,10 @@ import { Outlet, Link } from "react-router-dom";
             <img src = {flower} alt = "Flower Logo" height = "80px" width = "80px"/>
             <SideMenu />
           </div>
+          <div className = "subsections">            
+            <Outlet />
+          </div>
 
-            
-          <Outlet />
         </div>
 
       </div>

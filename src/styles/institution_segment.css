@@ -1,0 +1,64 @@
+.education-segment{
+   padding:24px;
+    min-height: 86vh !important;
+    background-image: url("../images/intro_background.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size:cover !important; 
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.education-title{
+    font-family:cursive;
+    font-size: xx-large;
+    margin-left: 7%;
+}
+
+/* .education-content{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} */
+
+.education-button{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: flex-start; 
+   margin-left:8%;
+   border: dashed black 2px;
+   border-radius: 5px;
+   margin-top:2%;
+}
+
+Button{
+    height: 90px !important;
+    margin: 15px;
+    
+}
+
+.NUS{
+    margin-top:30px;
+}
+
+.CGS{
+    margin-bottom: 30px;
+}
+
+.school{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+}
+
+.school .schoolName{
+    margin-top:5px;
+    margin-left:5px;
+}
+
+
+

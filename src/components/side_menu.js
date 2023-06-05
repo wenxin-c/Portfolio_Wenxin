@@ -20,7 +20,7 @@ const items = [
     getItem(<Link to='/Content'>Overview</Link>, 'sub1', <HeartOutlined />),
 
     getItem('Education', 'sub2', <LaptopOutlined />, [
-    getItem(<Link to='/Content/Education'>Institutions</Link>, null, null),
+    getItem(<Link to='/Content/Institutions'>Institutions</Link>, null, null),
     getItem(<Link to='/Content/CCA'>Cocurricular Activities</Link>, null, null),
     getItem(<Link to='/Content/Awards'>Awards</Link>, null, null),]),
 

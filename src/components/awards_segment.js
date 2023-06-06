@@ -1,101 +1,83 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Layout, theme, Card } from 'antd';
-import '../styles/skill_segment.css'
+import { Collapse } from 'antd';
+import "../styles/award_segment.css"
+const { Panel } = Collapse;
 
-const { Header, Content, Sider } = Layout;
+const headerSnt = "NUS Science and Technology Merit Scholarship";
+const textSnt = (
+    <div>
+        <p>Offered by: National University of Sinagpore</p>
+        <p>Period: July 2021 - May 2025</p>
+    </div>
+);
 
-function AwardsSegment(){
-    const {
-        token: { colorBgContainer },
-      } = theme.useToken();
-    return (
-        <div>
-            <Content
-            style={{
-              padding: 24,
-              margin: 0,
-              minHeight: 280,
-              background: colorBgContainer,
-            }}
-          >
+const headerSsef = "Singapore Science and Engineering Fair Merit Award";
+const textSsef = (
+    <div>
+        <p>Offer Date: January 2020</p>
+        <p>Description: The project is an Augmented Reality(AR) mobile application Chemistry Escape Room 
+        to allow students conduct virtual Chemistry experiments on their mobile devices outside school 
+        laboratories to enhance understanding of Chemistry concepts.</p>
+    </div>
+);
 
-            {/* The part of the code is to update award
-                Having one more Card element to insert in one more award*/}
-            <div className="site-card-border-less-wrapper" >
-                <Card
-                title="Science and Technology Merit Scholarship"
-                bordered={false}
-                style={{
-                    width: 355,
-                    marginRight:'10px',
-                    marginBottom:'10px',
-                }}
-                >
-                <p>Offered by: National University of Sinagpore</p>
-                <p>Offer Date: July 2021</p>
-                </Card>
+const headerNjc = "National Junior College Academic Excellence Award";
+const textNjc = (
+    <div>
+        <p>Offered by: National Junior College</p>
+        <p>Offer Date: January 2020</p>
+    </div>
+);
 
-                <Card
-                title="Merit award in the Singapore Science and Engineering Fair"
-                bordered={false}
-                style={{
-                    width: 482,
-                    marginRight:'10px',
-                    marginBottom:'10px',
-                }}
-                >
-                <p>Offer Date: January 2020</p>
-                <p>Description: The project is an Augmented Reality(AR) mobile application Chemistry Escape Room 
-                to allow students conduct virtual Chemistry experiments on their mobile devices outside school laboratories to enhance understanding of Chemistry concepts.</p>
-                </Card>
+const headerPerse = "Perse Team Coding Challenge Distinction Award";
+const textPerse = (
+    <div>
+        <p>Offered by: National Junior College</p>
+        <p>Offer Date: January 2019</p>
+    </div>
+);
 
-                <Card
-                title="National Junior College Academic Excellence Award"
-                bordered={false}
-                style={{
-                    width: 430,
-                    marginRight:'10px',
-                    marginBottom:'10px',
-                }}
-                >
-                <p>Offered by: National Junior College</p>
-                <p>Offer Date: January 2020</p>
-                </Card>
+const headerPrc = "PRC JM3(SM1) Scholarship";
+const textPrc = (
+    <div>
+        <p>Offered by: Ministry of Education, Singapore</p>
+        <p>Offer Date: January 2017</p>
+    </div>
+);
 
-                <Card
-                title="Perse Team coding challenge Distinction Award"
-                bordered={false}
-                style={{
-                    width: 392,
-                    marginRight:'10px',
-                    marginBottom:'10px',
-                }}
-                >
-                <p>Offered by: National Junior College</p>
-                <p>Offer Date: January 2019</p>
-                </Card>
 
-                <Card
-                title="PRC JM3(SM1) scholarship"
-                bordered={false}
-                style={{
-                    width: 355,
-                    marginRight:'10px',
-                    marginBottom:'10px',
-                }}
-                >
-                <p>Offered by: Ministry of Education, Singapore</p>
-                <p>Offer Date: January 2017</p>
-                
-                </Card>
-            </div>
-            
-          </Content>
+const AwardSegment = () => {
+  const onChange = (key) => {
+    console.log(key);
+  };
+  return (
+    <div className = "award-segment">
+        <h1 className = "award-title">Awards</h1>
+        {/* <Collapse defaultActiveKey={['1']} onChange={onChange}> */}
+        {/* The key is important in determining which item gets expanded
+        upon clicking. The items with the same keys will be expanded together
+        upon clicking*/}
+        <Collapse className = "award-content" onChange={onChange}>
+            <Panel header={headerSnt} key="1">
+                <p>{textSnt}</p>
+            </Panel>
+            <Panel header={headerSsef} key="2">
+                <p>{textSsef}</p>
+            </Panel>
+            <Panel header={headerNjc} key="3">
+                <p>{textNjc}</p>
+            </Panel>
+            <Panel header={headerPerse} key="4">
+                <p>{textPerse}</p>
+            </Panel>
+            <Panel header={headerPrc} key="5">
+                <p>{textPrc}</p>
+            </Panel>
+        </Collapse>
+    </div>
 
-        </div>
-    );
+  );
+};
 
-}
-
-export default AwardsSegment;
+export default AwardSegment;

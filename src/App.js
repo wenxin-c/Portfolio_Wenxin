@@ -7,7 +7,7 @@ import InstitutionSegment from '../src/components/institution_segment.js'
 import ProjectSegment from '../src/components/project_segment.js'
 import ExperienceSegment from './components/experience_segment.js'
 import CCASegment from '../src/components/cca_segment.js'
-import AwardsSegment from '../src/components/awards_segment.js'
+import AwardSegment from '../src/components/awards_segment.js'
 import Introduction from '../src/pages/introduction.js'
 import PMaster from '../src/pages/pmaster.js'
 import PosterSegment from '../src/components/pmaster_poster.js'
@@ -31,8 +31,8 @@ function App() {
                     <Route index element={<IntroSegment />} />
                     <Route path="Institutions" element={<InstitutionSegment />}/>
                     <Route path="CCA" element={<CCASegment />}/>
-                    <Route path="Awards" element={<AwardsSegment />} />
-                    
+                    <Route path="Awards" element={<AwardSegment />} />
+
                     <Route path="Skills" element={<SkillSegment />} />
                     
                     <Route path="Projects" element={<ProjectSegment />}>

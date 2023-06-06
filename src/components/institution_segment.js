@@ -91,7 +91,7 @@ const InstitutionSegment = () => (
             </Popover>
 
             <Popover 
-                placement="right"
+                placement="rightBottom"
                 title={textSec} content={contentSec} trigger="click">
                 <Button className = "CGS"><div className='school'><img src={CGS_logo} width='40px' height='40px'/><span className='schoolName'>Crescent Girls' School</span></div> </Button>
             </Popover>

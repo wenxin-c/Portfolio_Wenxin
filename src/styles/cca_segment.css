@@ -1,9 +1,19 @@
 .ant-collapse-content{
-    width:70vw;
+    width:100%;
 }
+
 .ant-collapse-header{
     background-color:#e0e0e0;
 }
+.cca-title{
+    font-family:cursive;
+    font-size: xx-large;
+    margin-left: 2%;
+    margin-top: 0;
+}
+/* .cca-content{
+    margin-left:2%;
+} */
 .photoWrapper{
     display:flex;
     justify-content: center;
@@ -12,11 +22,7 @@
     color: '#fff';
     background: '#364d79';
 }
-.ccaTitle{
-    font-size: 26px;
-    margin-top:0;
-    margin-bottom: 20px
-}
+
 .cca-pic{
     margin-top:0;
     margin-bottom:0;

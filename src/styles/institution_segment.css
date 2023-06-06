@@ -15,6 +15,7 @@
     font-size: xx-large;
     margin-left: 6%;
     margin-top: 0;
+    margin-bottom:5px;
 }
 
 .education-content{
@@ -29,7 +30,7 @@
    flex-direction: column;
    justify-content: space-around;
    align-items: flex-start; 
-   margin-left:8%;
+   margin-left:5%;
    border: dashed black 2px;
    border-radius: 5px;
 }
@@ -37,7 +38,7 @@
 .NUS{
   height: 90px !important;
   margin: 15px;
-  margin-top:30px;
+  margin-top:20px;
 }
 
 .NJC{
@@ -48,7 +49,7 @@
 .CGS{
   height: 90px !important;
   margin: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .school{
@@ -78,7 +79,7 @@
     cursor: pointer;
 
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 13%;
 
     display: flex;
     flex-direction: column;

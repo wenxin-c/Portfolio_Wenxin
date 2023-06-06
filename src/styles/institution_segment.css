@@ -34,17 +34,21 @@
    border-radius: 5px;
 }
 
-Button{
-    height: 90px !important;
-    margin: 15px;
+.NUS{
+  height: 90px !important;
+  margin: 15px;
+  margin-top:30px;
 }
 
-.NUS{
-    margin-top:30px;
+.NJC{
+  height: 90px !important;
+  margin: 15px;
 }
 
 .CGS{
-    margin-bottom: 30px;
+  height: 90px !important;
+  margin: 15px;
+  margin-bottom: 30px;
 }
 
 .school{

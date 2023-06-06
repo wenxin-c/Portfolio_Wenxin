@@ -81,7 +81,7 @@ const InstitutionSegment = () => (
             <Popover 
                 placement="right"
                 title={textUni} content={contentUni} trigger="click">
-                <Button className = "NUS"><div className='school'><img src={NUS_logo} width='50px'/><span className='schoolName NUS'>National University of Singapore</span></div> </Button>
+                <Button className = "NUS"><div className='school'><img src={NUS_logo} width='50px'/><span className='schoolName'>National University of Singapore</span></div> </Button>
             </Popover>
 
             <Popover 

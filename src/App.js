@@ -30,14 +30,17 @@ function App() {
                 <Route path="/Content" element={<Introduction />}>
                     <Route index element={<IntroSegment />} />
                     <Route path="Institutions" element={<InstitutionSegment />}/>
+                    <Route path="CCA" element={<CCASegment />}/>
+                    <Route path="Awards" element={<AwardsSegment />} />
+                    
                     <Route path="Skills" element={<SkillSegment />} />
                     
                     <Route path="Projects" element={<ProjectSegment />}>
                         
                     </Route>
                     <Route path="Experience" element={<ExperienceSegment />}/>
-                    <Route path="CCA" element={<CCASegment />}/>
-                    <Route path="Awards" element={<AwardsSegment />} />
+                    
+
                 </Route>
                 {/* <Route path="/Projects/PMaster" element={<PMaster />}>
                     <Route index element={<DescriptionSegment />} />

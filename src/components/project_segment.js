@@ -7,6 +7,8 @@ import MBot_profile from '../images/MBot_profile.png'
 import Alex_profile from '../images/Alex_profile.png'
 import ESTaR_profile from '../images/ESTaR_profile.jpg'
 import Ongoing from '../images/Ongoing.png'
+import Wellnuspp from "../images/wellnuspp.png"
+import Duke from "../images/duke.png"
 import { Outlet, Link } from "react-router-dom";
 
 const textGenus = <span>GENUS Tele Attendance Bot</span>;
@@ -25,6 +27,31 @@ const contentGenus = (
                 </ul>
             </p>
         </div>
+);
+
+const textDuke = <span>Duke</span>
+const contentDuke = (
+    <div>
+        <p>Status: completed</p>
+        <p>Date: 13/01/2023 - 03/03/2023</p>
+        <p>Description: Duke is a Command Line Personal Assistant Chatbot that help users to 
+        keep track of daily tasks. It enables users to add, update, delete and search for tasks.</p>
+        <p>Tech sets: Java</p>
+        <p><a href = "https://wenxin-c.github.io/CS2113-Duke/">User Guide</a></p>
+    </div>
+);
+
+const textWellnuspp = <span>WellNUS++</span>
+const contentWellnuspp = (
+    <div>
+        <p>Status: completed</p>
+        <p>Date: 01/03/2023 - 10/04/2023</p>
+        <p>Description: WellNUS++ is a Command Line Interface(CLI) application for NUS Computing students 
+        to keep track and improve their physical and mental wellness in various aspects such as atomic habit
+        development and self reflection. The commands are designed to be concise and optimised for CLI.</p>
+        <p><a href = "https://ay2223s2-cs2113-t12-4.github.io/tp/">Document Link</a></p>
+        <p><a href = "https://ay2223s2-cs2113-t12-4.github.io/tp/team/wenxin-c.html">My Contribution</a></p>
+    </div>
 );
 
 const textOrbital = <span>NUS Obital Project - PMaster</span>
@@ -121,6 +148,34 @@ const ProjectSegment = () => (
                     <div className='project'>
                         <img className = "project-pic" src={Ongoing} width='100%' height="80%"/>
                         <span className="project-name">GENUS Telegram Attendance Bot</span>
+                    </div> 
+                </Button>
+            </Popover>
+
+            <Popover 
+                placement="rightTop"
+                title={textDuke} 
+                content={contentDuke} 
+                trigger="click"
+            >
+                <Button className = "project-btn">
+                    <div className='project'>
+                        <img className = "project-pic" src={Duke} width='100%' height="80%"/>
+                        <span className="project-name">Duke</span>
+                    </div> 
+                </Button>
+            </Popover>
+
+            <Popover 
+                placement="rightTop"
+                title={textWellnuspp} 
+                content={contentWellnuspp} 
+                trigger="click"
+            >
+                <Button className = "project-btn">
+                    <div className='project'>
+                        <img className = "project-pic" src={Wellnuspp} width='100%' height="80%"/>
+                        <span className="project-name">WellNUS++</span>
                     </div> 
                 </Button>
             </Popover>

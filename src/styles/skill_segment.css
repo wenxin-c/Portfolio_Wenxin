@@ -1,7 +1,11 @@
-.site-card-border-less-wrapper{
+.skill-content{
     display:flex;
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: flex-start;
     align-items: flex-start
+}
+
+.skill-card{
+    border: solid black 1.5px;
 }

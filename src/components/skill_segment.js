@@ -22,12 +22,27 @@ function SkillSegment(){
 
             {/* The part of the code is to update skills
                 Having one more Card element to insert in one more skill*/}
-            <div className="site-card-border-less-wrapper" >
-                <Card
-                title="Front-end Development"
+            <div className="skill-content" >
+                <Card className = "skill-card"
+                title="Programming Language"
                 bordered={false}
                 style={{
-                    width: 230,
+                    width: 260,
+                    marginRight:'10px',
+                    marginBottom:'10px',
+                }}
+                >
+                <p>C/C++</p>
+                <p>Java</p>
+                <p>Verilog</p>
+                <p>Baremetal Programming</p>
+                </Card>
+                
+                <Card className = "skill-card"
+                title="Web Front-end Development"
+                bordered={false}
+                style={{
+                    width: 260,
                     marginRight:'10px',
                     marginBottom:'10px',
                 }}
@@ -38,62 +53,40 @@ function SkillSegment(){
                 <p>ReactJS</p>
                 </Card>
 
-                <Card
+                <Card className = "skill-card"
                 title="Back-end Development"
                 bordered={false}
                 style={{
-                    width: 230,
+                    width: 260,
                     marginRight:'10px',
                     marginBottom:'10px',
                 }}
                 >
-                <p>Database</p>
-                <p>SQL</p>
+                <p>Database/SQL</p>
+                <p>Java API</p>
                 <p>NodeJS</p>
                 <p>ExpressJS</p>
                 </Card>
 
-                <Card
-                title="Programming Language"
+                <Card className = "skill-card"
+                title="Hardwares"
                 bordered={false}
                 style={{
-                    width: 230,
+                    width: 260,
                     marginRight:'10px',
                     marginBottom:'10px',
                 }}
                 >
-                <p>C/C++</p>
-                <p>Data Structures & Algorithms</p>
-                <p>Verilog</p>
-                <p>Baremetal Programming</p>
-                </Card>
-
-                <Card
-                title="Microcontrollers"
-                bordered={false}
-                style={{
-                    width: 230,
-                    marginRight:'10px',
-                    marginBottom:'10px',
-                }}
-                >
-                <p>Arduino</p>
-                <p>Raspberry Pi</p>
-                </Card>
-
-                <Card
-                title="Hardware"
-                bordered={false}
-                style={{
-                    width: 230,
-                    marginRight:'10px',
-                    marginBottom:'10px',
-                }}
-                >
-                <p>Basic Electronic Components</p>
+                <p>Microcontrollers
+                    <ul>
+                        <li>Arduino</li>
+                        <li>Raspberry Pi</li>
+                    </ul>
+                </p>
+                <p>Basic electronic components (e.g conductor, inductor)</p>
                 <p>Electronic Circuit Design</p>
-                
                 </Card>
+
             </div>
             
           </Content>

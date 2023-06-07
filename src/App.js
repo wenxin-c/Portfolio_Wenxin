@@ -32,12 +32,8 @@ function App() {
                     <Route path="Institutions" element={<InstitutionSegment />}/>
                     <Route path="CCA" element={<CCASegment />}/>
                     <Route path="Awards" element={<AwardSegment />} />
-
                     <Route path="Skills" element={<SkillSegment />} />
-                    
-                    <Route path="Projects" element={<ProjectSegment />}>
-                        
-                    </Route>
+                    <Route path="Projects" element={<ProjectSegment />} />
                     <Route path="Experience" element={<ExperienceSegment />}/>
                     
 

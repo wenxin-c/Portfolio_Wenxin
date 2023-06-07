@@ -23,9 +23,7 @@ const items = [
     getItem(<Link to='/Content/Institutions'>Institutions</Link>, null, null),
     getItem(<Link to='/Content/CCA'>Cocurricular Activities</Link>, null, null),
     getItem(<Link to='/Content/Awards'>Awards</Link>, null, null),]),
-
     getItem(<Link to='/Content/Skills'>Skillsets</Link>, 'sub3', <RadarChartOutlined />),
-
     getItem(<Link to='/Content/Projects'>Projects</Link>, 'sub4', <FileDoneOutlined />,),
 
     getItem(<Link to='/Content/Experience'>Work Experience</Link>, 'sub5', <HistoryOutlined />, ),

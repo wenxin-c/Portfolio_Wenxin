@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Layout, theme, Card } from 'antd';
 import '../styles/skill_segment.css'
 import '../styles/institution_segment.css'
 import { Button, Popover } from 'antd';
@@ -12,11 +11,21 @@ import NJC_pic from "../images/njc.png"
 
 const textUni = <span>National University of Singapore</span>;
 const contentUni = (
-  <div>
-    <p>Status: Undergraduate</p>
-    <p>Degree: Bachelor of Engineering</p>
-    <p>Major: Computer Engineering</p>
-  </div>
+    <div>
+        <p>Status: Undergraduate</p>
+        <p>Degree: Bachelor of Engineering</p>
+        <p>Major: Computer Engineering</p>
+        <p>Course: 
+                <ul>
+                    <li>CS1231: Discrete Structures</li>
+                    <li>CS2040C: Data Structure and Algorithm</li>
+                    <li>CS2102: Database Systems</li>
+                    <li>CS2113: Software Engineering & Object Oriented Programming</li>
+                    <li>CG1111A: Engineering Principles and Practice I</li>
+                    <li>CG2111A: Engineering Principles and Practice II</li>
+                </ul>
+        </p>
+    </div>
 );
 
 const textJc = <span>National Junior College</span>
@@ -79,7 +88,7 @@ const InstitutionSegment = () => (
         >
 
             <Popover 
-                placement="right"
+                placement="rightTop"
                 title={textUni} content={contentUni} trigger="click">
                 <Button className = "NUS"><div className='school'><img src={NUS_logo} width='50px'/><span className='schoolName'>National University of Singapore</span></div> </Button>
             </Popover>

@@ -38,16 +38,16 @@ function CCASegment(){
                             <div className="genusContent">
                                 <Carousel >
                                     <div>
-                                        <h3 className="photoWrapper" ><img className = "cca-pic" src={Springtide1} alt="springtide photo1" height='500px' width='100%'/></h3>
+                                        <h3 className="photo-wrapper" ><img className = "cca-pic" src={Springtide1} alt="springtide photo1" height='500px' width='100%'/></h3>
                                     </div>
                                     <div>
-                                        <h3 className="photoWrapper" ><img className = "cca-pic" src={Springtide2} alt="springtide photo2" height='500px' width='100%'/></h3>
+                                        <h3 className="photo-wrapper" ><img className = "cca-pic" src={Springtide2} alt="springtide photo2" height='500px' width='100%'/></h3>
                                     </div>
                                     <div>
-                                        <h3 className="photoWrapper" ><img className = "cca-pic" src={Springtide3} alt="springtide photo3" height='500px' width='40%'/></h3>
+                                        <h3 className="photo-wrapper" ><img className = "cca-pic" src={Springtide3} alt="springtide photo3" height='500px' width='40%'/></h3>
                                     </div>
                                     <div>
-                                        <h3 className="photoWrapper" ><img className = "cca-pic" src={Springtide4} alt="springtide photo4" height='500px' width='70%'/></h3>
+                                        <h3 className="photo-wrapper" ><img className = "cca-pic" src={Springtide4} alt="springtide photo4" height='500px' width='70%'/></h3>
                                     </div>
                                 </Carousel>
                                 <p>NUS Guitar Ensemble(GENUS) is a member of NUS Centre of the Arts, and one of 20 co-curricular arts activity groups (CCA) distinguished as Arts Excellence Groups in NUS. 
@@ -63,13 +63,13 @@ function CCASegment(){
                             <div className="eceContent">
                                 <Carousel >
                                     <div>
-                                        <h3 className="photoWrapper" ><img className = "cca-pic" src={ECE1} alt="ece photo1" height='500px' width='70%'/></h3>
+                                        <h3 className="photo-wrapper" ><img className = "cca-pic" src={ECE1} alt="ece photo1" height='500px' width='70%'/></h3>
                                     </div>
                                     <div>
-                                        <h3 className="photoWrapper" ><img className = "cca-pic" src={ECE2} alt="ece photo2" height='500px' width='65%'/></h3>
+                                        <h3 className="photo-wrapper" ><img className = "cca-pic" src={ECE2} alt="ece photo2" height='500px' width='65%'/></h3>
                                     </div>
                                     <div>
-                                        <h3 className="photoWrapper" ><img className = "cca-pic" src={ECE3} alt="ece photo3" height='500px' width='90%'/></h3>
+                                        <h3 className="photo-wrapper" ><img className = "cca-pic" src={ECE3} alt="ece photo3" height='500px' width='90%'/></h3>
                                     </div>
                                     
                                 </Carousel>

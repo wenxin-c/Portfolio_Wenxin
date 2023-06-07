@@ -1,0 +1,57 @@
+.project-segment{
+    padding:24px;
+    min-height: 86vh !important;
+    background-image: url("../images/intro_background.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size:cover !important; 
+}
+
+.project-content{
+    width: 100%;
+}
+
+.project-button{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100% !important;
+}
+
+.project-btn{
+  min-height: 250px !important;
+  width: 30%;
+  padding:0;
+  margin:10px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    /* This is to occupy full height of the parent element
+    which is the button in this case */
+    height:100%;
+}
+
+.project-pic{
+    margin: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.project-name{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* This is to specify the width of the popout box.
+If the space left for the popout box is not sufficient, 
+the popout box arrow will move to the left edge of the window */
+.ant-popover{
+  width:40%;
+}

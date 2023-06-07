@@ -1,11 +1,46 @@
-.workTitle{
-    font-size: 26px;
-    margin-top:0px;
-    margin-bottom:20px;
+.work-segment{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
+.work-title{
+    font-family:cursive;
+    font-size: xx-large;
+    margin-left: 4%;
+    margin-top: 0;
+}
+
+.work-content{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-left:3%;
+}
+
+.epp1-card, .hdb-card{
+    margin-right: 3%;
+}
+
+.epp1-card, .epp2-card, .hdb-card{
+    margin-bottom: 3%;
+} 
+
+.epp1Ta-img, .hdb-img{
+    margin:0;
+    height: 130px;
+
+}
+
+.ant-avatar img{
+    margin:0;
 }
 
 .ant-card-meta-description{
     font-weight: 600;
-
 }
+

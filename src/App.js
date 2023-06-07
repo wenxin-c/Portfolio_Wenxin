@@ -25,7 +25,10 @@ function App() {
         <div className="App">
           <header className="App-header">
             <Routes>
-              
+              {/* These are definitions of the pages/paths. 
+              Once being defined, can use Link to access the pages.
+              Outlet defines where the page should appear for nested router, 
+              otherwise, the part wont show. */}
                 <Route path="/" element={<Welcome />}></Route>
                 <Route path="/Content" element={<Introduction />}>
                     <Route index element={<IntroSegment />} />
@@ -35,15 +38,14 @@ function App() {
                     <Route path="Skills" element={<SkillSegment />} />
                     <Route path="Projects" element={<ProjectSegment />} />
                     <Route path="Experience" element={<ExperienceSegment />}/>
-                    
-
                 </Route>
-                {/* <Route path="/Projects/PMaster" element={<PMaster />}>
+
+                <Route path="/Content/Projects/PMaster" element={<PMaster />}>
                     <Route index element={<DescriptionSegment />} />
                     <Route path="Poster" element={<PosterSegment />} />
                     <Route path="Tech" element={<TechSegment/>}/>
                     <Route path="Screenshot" element={<ScreenshotSegment />} />
-                </Route> */}
+                </Route>
                 
               
             </Routes>

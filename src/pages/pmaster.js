@@ -20,11 +20,11 @@ const PMaster = () => {
   }
 
   const items = [
-    getItem(<Link to='/Projects/PMaster'>Project Description</Link>, 'sub1', <ProjectOutlined />),
-    getItem(<Link to='/Projects/PMaster/Tech'>Technical Sets</Link>, 'sub2', <DeploymentUnitOutlined />),
-    getItem(<Link to='/Projects/PMaster/Poster'>Project Poster</Link>, 'sub3', <PictureOutlined />), 
-    getItem(<Link to='/Projects/PMaster/Screenshot'>Project Screenshot</Link>, 'sub4', <ScissorOutlined />),
-    getItem(<Link to='/Projects'>Return</Link>, 'sub5'),
+    getItem(<Link to='/Content/Projects/PMaster'>Project Description</Link>, 'sub1', <ProjectOutlined />),
+    getItem(<Link to='/Content/Projects/PMaster/Tech'>Technical Sets</Link>, 'sub2', <DeploymentUnitOutlined />),
+    getItem(<Link to='/Content/Projects/PMaster/Poster'>Project Poster</Link>, 'sub3', <PictureOutlined />), 
+    getItem(<Link to='/Content/Projects/PMaster/Screenshot'>Project Screenshot</Link>, 'sub4', <ScissorOutlined />),
+    getItem(<Link to='/Content/Projects'>Return</Link>, 'sub5'),
    
   ];
 
@@ -37,18 +37,8 @@ const PMaster = () => {
           mode="horizontal"
           defaultSelectedKeys={['1']}
           items={items}
-          /*
-            items={new Array(2).fill(null).map((_, index) => {
-            const key = index + 1;
-            return {
-              key,
-              label: `${titles[index]}`,
-            };
-          })}
-          
-          */
-
         />
+
       </Header>
       <Outlet />
       

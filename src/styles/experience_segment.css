@@ -1,3 +1,7 @@
+/* Do not need to specify background/min-height in this case because
+the component is using Content element and there is css specified for
+thistag in intro_segment.css and this will be applicable for all the 
+Content tags in this project */
 .work-segment{
     display: flex;
     flex-direction: column;

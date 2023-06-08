@@ -17,7 +17,7 @@ const contentGenus = (
             <p>Status: ongoing</p>
             <p>Date: 01/12/2022 -</p>
             <p>Description: The aim of the project is to create a Telegram Attendance bot to facilitate NUS Guitar Ensemble attendance taking for members. </p>
-            <p>Tech sets: 
+            <p>Tech set: 
                 <ul>
                     <li>MySQL</li>
                     <li>JavaScript</li>
@@ -36,7 +36,7 @@ const contentDuke = (
         <p>Date: 13/01/2023 - 03/03/2023</p>
         <p>Description: Duke is a Command Line Personal Assistant Chatbot that help users to 
         keep track of daily tasks. It enables users to add, update, delete and search for tasks.</p>
-        <p>Tech sets: Java</p>
+        <p>Tech set: Java</p>
         <p><a href = "https://wenxin-c.github.io/CS2113-Duke/">User Guide</a></p>
     </div>
 );
@@ -49,6 +49,7 @@ const contentWellnuspp = (
         <p>Description: WellNUS++ is a Command Line Interface(CLI) application for NUS Computing students 
         to keep track and improve their physical and mental wellness in various aspects such as atomic habit
         development and self reflection. The commands are designed to be concise and optimised for CLI.</p>
+        <p>Tech set: Java</p>
         <p><a href = "https://ay2223s2-cs2113-t12-4.github.io/tp/">Document Link</a></p>
         <p><a href = "https://ay2223s2-cs2113-t12-4.github.io/tp/team/wenxin-c.html">My Contribution</a></p>
     </div>
@@ -62,7 +63,7 @@ const contentOrbital = (
         <p>Description: PMaster is a web-app that helps users manage their projects easily and systematically. It has three main content sections, namely cost management, task management and human resource management.  
         PMaster organises and stores user input data systematically and allows efficient data update and retrieval.  
         </p>
-        <p>Tech sets: 
+        <p>Tech set: 
             <ul>
                 <li>HTML && CSS</li>
                 <li>JavaScript</li>
@@ -86,7 +87,7 @@ const contentSsef = (
         <p>Status: Completed</p>
         <p>Date: July 2019 - January 2020</p>
         <p>Description: The project is an Augmented Reality mobile application ChemistryEscapeRoom to allow students conduct virtual Chemistry experiments on their mobile devices outside school laboratories to enhance understanding of Chemistry concepts. </p>
-        <p>Tech sets: 
+        <p>Tech set: 
             <ul>
                 <li>Unity</li>
                 <li>IOS</li>
@@ -102,7 +103,7 @@ const contentEpp1 = (
         <p>Status: Completed</p>
         <p>Date: Aug 2021 - Nov 2021</p>
         <p>Description: Collaborated with teammates to develop a robotic vehicle, MBot, that can detect different colors using color sensors and navigate through a maze automatically with the help of ultrasonic and infrared sensors.</p>
-        <p>Tech sets: 
+        <p>Tech set: 
             <ul>
                 <li>Hardware: Ultrasonic sensor, Infrared emitter and receiver, light dependent resistor, Arduino Uno</li>
                 <li>Software: C++, Arduino IDE</li>
@@ -117,7 +118,7 @@ const contentEpp2 = (
         <p>Status: Completed</p>
         <p>Date: Jan 2022 - Apr 2022</p>
         <p>Description: Collaborated with teammates to develop a robotic vehicle, Alex, that is equipped with Simultaneous Localization and Mapping. It is remotely controlled by a local laptop through a secure Transport Layer Security connection and can send the real time map of the environment back to the control station.</p>
-        <p>Tech sets: 
+        <p>Tech set: 
             <ul>
                 <li>Hardware: RPLiDAR sensor, Arduino Uno, Raspberry Pi</li>
                 <li>Software: Baremetal Programming, Serial Communication Protocol, SLAM algorithm, TLS connection, ROS</li>

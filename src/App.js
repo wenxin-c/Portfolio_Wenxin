@@ -15,7 +15,8 @@ import DescriptionSegment from '../src/components/pmaster_description.js'
 import TechSegment from './components/pmaster_tech.js'
 import ScreenshotSegment from './components/pmaster_screenshot.js'
 import ScrollToTop from "./pages/wrapper.js";
-import Welcome from '../src/pages/welcome.js'
+import Welcome from '../src/pages/welcome.js';
+import Kpop from "./components/kpop_segment.js";
 import "./styles/app.css"
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
                     <Route path="Skills" element={<SkillSegment />} />
                     <Route path="Projects" element={<ProjectSegment />} />
                     <Route path="Experience" element={<ExperienceSegment />}/>
+                    <Route path="Kpop" element={<Kpop />}></Route>
                 </Route>
 
                 <Route path="/Content/Projects/PMaster" element={<PMaster />}>

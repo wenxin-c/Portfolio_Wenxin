@@ -29,7 +29,7 @@ const items = [
     getItem(<Link to='/Content/Experience'>Work Experience</Link>, 'sub5', <HistoryOutlined />, ),
 
     getItem('Social Life', 'sub6', <SettingOutlined />, [
-    getItem('Option 9', '9'),
+    getItem(<Link to='/Content/Kpop'>Kpop</Link>, null, null),
     getItem('Option 10', '10'),
     getItem('Option 11', '11'),
     getItem('Option 12', '12'),

@@ -26,6 +26,7 @@ image and min-height again */
     justify-content: flex-start;
     align-items: flex-start;
     width: 100%;
+    height:100%;
     margin-left:3%;
     margin-top:3%;
 }
@@ -76,15 +77,15 @@ image and min-height again */
 	background-image: linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,0));
 }
 .frame img {
-	border-width: 2px;
+	/* border-width: 2px;
 	border-style: solid;
-	border-color: #BBBAB4 #C7C7BF #E5E4DF #C7C7BF;
+	border-color: #BBBAB4 #C7C7BF #E5E4DF #C7C7BF; */
 	box-shadow:  0 -1px 1px rgba(0,0,0,.1), 0 1px 1px 1px rgba(255,255,255,.7);
     width:100%;
     margin:0;
 }
 
-.svt-title{
+.title{
     font-family:cursive;
     font-size:x-large;
     margin-left: 4%;
@@ -97,4 +98,13 @@ image and min-height again */
 
 .exo{
     margin-left: 3%;
+}
+
+.song-list{
+    margin-top:5%;
+}
+
+.song-list span a{
+    font-size: inherit;
+    color: black !important;
 }

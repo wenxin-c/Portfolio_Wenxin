@@ -3,8 +3,25 @@
 }
 
 .ant-collapse-header{
-    background-color:#e0e0e0;
+    font-weight: 700;
 }
+
+.genus .ant-collapse-header{
+    background-color:#c3e1fc;
+}
+
+.genus .ant-collapse-content-box{
+    background-color: aliceblue;
+}
+
+.ece .ant-collapse-header{
+    background-color:#d7ccea;
+}
+
+.ece .ant-collapse-content-box{
+    background-color: #efedfb;
+}
+
 .cca-title{
     font-family:cursive;
     font-size: xx-large;

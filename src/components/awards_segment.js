@@ -59,19 +59,19 @@ const AwardSegment = () => {
         upon clicking. The items with the same keys will be expanded together
         upon clicking*/}
         <Collapse className = "award-content" onChange={onChange}>
-            <Panel header={headerSnt} key="1">
+            <Panel header={headerSnt} key="1" className = "snt">
                 <p>{textSnt}</p>
             </Panel>
-            <Panel header={headerSsef} key="2">
+            <Panel header={headerSsef} key="2" className = "ssef">
                 <p>{textSsef}</p>
             </Panel>
-            <Panel header={headerNjc} key="3">
+            <Panel header={headerNjc} key="3" className = "njc">
                 <p>{textNjc}</p>
             </Panel>
-            <Panel header={headerPerse} key="4">
+            <Panel header={headerPerse} key="4" className = "perse">
                 <p>{textPerse}</p>
             </Panel>
-            <Panel header={headerPrc} key="5">
+            <Panel header={headerPrc} key="5" className = "prc">
                 <p>{textPrc}</p>
             </Panel>
         </Collapse>

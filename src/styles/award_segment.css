@@ -20,3 +20,43 @@
 .award-content{
     margin-left:3%;
 }
+
+.snt .ant-collapse-header{
+    background-color:#c3e1fc;
+}
+
+.snt .ant-collapse-content-box{
+    background-color: aliceblue;
+}
+
+.ssef .ant-collapse-header{
+    background-color:#a9e4f0;
+}
+
+.ssef .ant-collapse-content-box{
+    background-color: #e7f4f4;
+}
+
+.njc .ant-collapse-header{
+    background-color:#d7ccea;
+}
+
+.njc .ant-collapse-content-box{
+    background-color: #efedfb;
+}
+
+.perse .ant-collapse-header{
+    background-color:#eed49a;
+}
+
+.perse .ant-collapse-content-box{
+    background-color: #f5ecdd;
+}
+
+.prc .ant-collapse-header{
+    background-color:#fac6c6;
+}
+
+.prc .ant-collapse-content-box{
+    background-color: #f8e8e5;
+}

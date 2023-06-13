@@ -34,7 +34,7 @@ function CCASegment(){
                 <h1 className="cca-title">Co-Curriculum Activities</h1>
                 <div className="cca-content" >
                     <Collapse defaultActiveKey={['1']}  >
-                        <Panel header="NUS Guitar Ensemble" key="1">
+                        <Panel header="NUS Guitar Ensemble" key="1" className = "genus">
                             <div className="genusContent">
                                 <Carousel >
                                     <div>
@@ -59,7 +59,7 @@ function CCASegment(){
                             </div>
                         </Panel>
                         
-                        <Panel header="NUS Electrical and Computer Engineering Club" key="2">
+                        <Panel header="NUS Electrical and Computer Engineering Club" key="2" className = "ece">
                             <div className="eceContent">
                                 <Carousel >
                                     <div>

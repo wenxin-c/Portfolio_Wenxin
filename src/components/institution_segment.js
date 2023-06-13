@@ -83,7 +83,7 @@ const InstitutionSegment = () => (
     <div className = "education-content">
         <div className = "education-button"
         style={{
-            width: buttonWidth * 6,
+            // width: buttonWidth * 6,
         }}
         >
 
@@ -109,10 +109,10 @@ const InstitutionSegment = () => (
             {/* <img src={CGS_logo} width='40px' height='40px'/> */}
 
         </div>
-        {/* <div className = "education-picture">
+        <div className = "education-picture">
             <img className = "nus-pic" src = {NUS_pic} alt = "NUS picture"/>
             <img className = "njc-pic" src = {NJC_pic} alt = "NJC picture"/>
-        </div> */}
+        </div>
     </div>
   </div>
 );

@@ -21,9 +21,10 @@
 .education-content{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     margin-top: 3%;
+    width:100%;
 }
 
 .education-button{
@@ -31,7 +32,9 @@
    flex-direction: column;
    justify-content: space-around;
    align-items: flex-start; 
+   margin-top:10px;
    margin-left:5%;
+   width:60%;
 }
 
 /* NUS Button CSS */
@@ -53,7 +56,7 @@
   z-index:0;
 
   min-height: 90px !important;
-  min-width:75%;
+  width:75%;
   margin: 15px;
   /* margin-top:20px; */
 }
@@ -108,7 +111,7 @@
   touch-action: manipulation;
 
   min-height: 90px !important;
-  min-width:75%;
+  width:75%;
   margin: 15px;
   z-index:0;
 }
@@ -155,7 +158,7 @@
   z-index:0;
 
   min-height: 90px !important;
-  min-width:75%;
+  width:75%;
   margin: 15px;
   margin-top:20px;
 }
@@ -201,44 +204,30 @@
     align-items: center;
 }
 
-.school img{
-  margin:0;
+.ant-popover{
+  width:30% !important;
 }
 
-.education-picture {
-    --b: 5px; /* border thickness */
-    --c: #0000 25%,darkblue 0; /* define the color here */
-    padding: 10px;
-    background:
-      conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--c)) 0    0,
-      conic-gradient(from 180deg at top    var(--b) right var(--b),var(--c)) 100% 0,
-      conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--c)) 0    100%,
-      conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--c)) 100% 100%;
-    background-size: 50px 50px; /* adjust border length here */
-    background-repeat: no-repeat;
-    transition: .6s;
-    cursor: pointer;
+/* .school img{
+  margin:0;
+} */
 
-    margin-left: 10%;
-    margin-right: 20%;
+.education-picture{
+  width:40%;
+}
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  
-  .education-picture:hover {
-    background-size: 51% 51%;
-  }
+.nus-pic, .njc-pic{
+  --s: 10px; /* control the size */
+  padding: var(--s);
+  border: calc(2*var(--s)) solid #0000;
+  outline: 1px solid #000;
+  outline-offset: calc(-1*var(--s));
+  background: conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0);
+  width:70%;
+}
 
   .nus-pic{
-    width: 100%;
-    margin:0; 
+    margin-top:0; 
   }
 
-  .njc-pic{
-    width: 100%;
-    margin:0; 
-    margin-top: 10px;
-  }
+

@@ -83,36 +83,37 @@ const InstitutionSegment = () => (
     <div className = "education-content">
         <div className = "education-button"
         style={{
-            width: buttonWidth * 4,
+            width: buttonWidth * 6,
         }}
         >
 
             <Popover 
                 placement="rightTop"
                 title={textUni} content={contentUni} trigger="click">
-                <Button className = "NUS"><div className='school'><img src={NUS_logo} width='50px'/><span className='schoolName'>National University of Singapore</span></div> </Button>
+                <button className = "NUS" role="button"><div className='school'><span className='schoolName'>National University of Singapore</span></div> </button>
             </Popover>
+            {/* <img src={NUS_logo} width='50px'/> */}
 
             <Popover 
                 placement="right"
                 title={textJc} content={contentJc} trigger="click">
-                <Button className = "NJC"><div className='school'><img src={NJC_logo} width='50px'/><span className='schoolName'>National Junior College</span></div> </Button>
+                <button className = "NJC"><div className='school'><span className='schoolName'>National Junior College</span></div> </button>
             </Popover>
+            {/* <img src={NJC_logo} width='50px'/> */}
 
             <Popover 
                 placement="rightBottom"
                 title={textSec} content={contentSec} trigger="click">
-                <Button className = "CGS"><div className='school'><img src={CGS_logo} width='40px' height='40px'/><span className='schoolName'>Crescent Girls' School</span></div> </Button>
+                <button className = "CGS"><div className='school'><span className='schoolName'>Crescent Girls' School</span></div> </button>
             </Popover>
+            {/* <img src={CGS_logo} width='40px' height='40px'/> */}
 
         </div>
-        <div className = "education-picture">
+        {/* <div className = "education-picture">
             <img className = "nus-pic" src = {NUS_pic} alt = "NUS picture"/>
             <img className = "njc-pic" src = {NJC_pic} alt = "NJC picture"/>
-        </div>
+        </div> */}
     </div>
-    
-
   </div>
 );
 

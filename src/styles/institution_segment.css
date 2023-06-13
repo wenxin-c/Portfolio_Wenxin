@@ -14,8 +14,8 @@
     font-family:cursive;
     font-size: xx-large;
     margin-left: 6%;
-    margin-top: 0;
-    margin-bottom:5px;
+    margin-top: 2%;
+    margin-bottom:0;
 }
 
 .education-content{
@@ -23,6 +23,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    margin-top: 3%;
 }
 
 .education-button{
@@ -31,25 +32,166 @@
    justify-content: space-around;
    align-items: flex-start; 
    margin-left:5%;
-   border: dashed black 2px;
-   border-radius: 5px;
 }
 
-.NUS{
-  height: 90px !important;
+/* NUS Button CSS */
+.NUS {
+  background-color: transparent;
+  border: 1px solid #266DB6 !important;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  z-index:0;
+
+  min-height: 90px !important;
+  min-width:75%;
+  margin: 15px;
+  /* margin-top:20px; */
+}
+
+.NUS:hover,
+.NUS:active {
+  outline: 0;
+}
+
+.NUS:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.NUS:before {
+  background-color: #D5EDF6 !important;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.NUS:hover:before {
+  background-color: #6DCFF6 !important;
+}
+
+@media (min-width: 768px) {
+  .NUS {
+    padding: 16px 32px;
+  }
+}
+
+
+/* NJC Button CSS */
+.NJC {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight:700;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  min-height: 90px !important;
+  min-width:75%;
+  margin: 15px;
+  z-index:0;
+}
+
+.NJC:after {
+  content: "";
+  background-color: #f0e39a;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.NJC:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .NJC {
+    padding: 13px 50px 13px;
+  }
+}
+
+/* CGS Button CSS */
+.CGS {
+  background-color: transparent;
+  border: 1px solid #7e4a45 !important;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  z-index:0;
+
+  min-height: 90px !important;
+  min-width:75%;
   margin: 15px;
   margin-top:20px;
 }
 
-.NJC{
-  height: 90px !important;
-  margin: 15px;
+.CGS:hover,
+.CGS:active {
+  outline: 0;
 }
 
-.CGS{
-  height: 90px !important;
-  margin: 15px;
-  margin-bottom: 20px;
+.CGS:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* This is for the color before hover */
+.CGS:before {
+  background-color: #f3e0dd !important;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+/* This is for the color on hover */
+.CGS:hover:before {
+  background-color: #e8a199 !important;
+}
+
+@media (min-width: 768px) {
+  .CGS {
+    padding: 16px 32px;
+  }
 }
 
 .school{
@@ -59,9 +201,8 @@
     align-items: center;
 }
 
-.school .schoolName{
-    margin-top:5px;
-    margin-left:5px;
+.school img{
+  margin:0;
 }
 
 .education-picture {
@@ -79,7 +220,7 @@
     cursor: pointer;
 
     margin-left: 10%;
-    margin-right: 13%;
+    margin-right: 20%;
 
     display: flex;
     flex-direction: column;

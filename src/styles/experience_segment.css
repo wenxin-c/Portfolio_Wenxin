@@ -24,6 +24,7 @@ Content tags in this project */
     align-items: flex-start;
     width: 100%;
     margin-left:3%;
+    margin-top:20px;
 }
 
 .epp1-card, .hdb-card, .epp2-card{

@@ -22,7 +22,7 @@ import "./styles/app.css"
 function App() {
   return (
     // <BrowserRouter basename='/Portfolio_Wenxin'>
-    <BrowserRouter basename = "/wenxin">
+    <BrowserRouter basename = "/wenxin/">
     <ScrollToTop>
         <div className="App">
           <header className="App-header">

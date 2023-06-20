@@ -60,7 +60,7 @@ function SkillSegment(){
 
                 <div className="card" >
                     <img src="https://picsum.photos/id/260/600/300"/>
-                    <h2 className = "skill-title">Web Back-end Development</h2>
+                    <h2 className = "skill-title">Hardware</h2>
                     <div className = "skill-text">
                         <p>Microcontrollers (e.g. Arduino, Raspberry Pi)</p>
                         <p>Electronic components (e.g conductor, inductor)</p>

@@ -29,7 +29,7 @@ function ExperienceSegment(){
             }}
           >
 
-            <h1 className='work-title'>Work Experience</h1>
+            {/* <h1 className='work-title'>Work Experience</h1> */}
 
             {/* The part of the code is to update work
                 Having one more Card element to insert in one more work*/}
@@ -56,6 +56,7 @@ function ExperienceSegment(){
                             <p>Job Description: <br></br>The main job is to assist in the development of Portal and Web application 
                             as well as Java API and Business Analytics Dashboards for Building and Estate Management related systems 
                             that consists of both Internet-facing e-Services and Intranet modules.</p>
+                            <p>Techsets: <br></br>Java EE, JSP</p>
                         </div>
                     />
                 </Card>
@@ -79,6 +80,7 @@ function ExperienceSegment(){
                             <p>Company: <br></br>National University of Singapore</p>
                             <p>Role: <br></br>Teaching Assistant for module CG2111A, AY22/23 Sem 2 August 2023 - November 2023</p>
                             <p>Job Description: <br></br>Guide students during lab experiments and clarify concepts to them.</p>
+                            <p>Skillsets: <br></br>Arduino, Raspberry Pi, Circuit Design, TCP/IP</p>
                         </div>
                     />
                 </Card>
@@ -102,6 +104,7 @@ function ExperienceSegment(){
                             <p>Company: <br></br>National University of Singapore</p>
                             <p>Role: <br></br>Teaching Assistant for module CG1111A, AY22/23 Sem 1, January 2023 - April 2023</p>
                             <p>Job Description: <br></br>Guide students during lab experiments and clarify concepts to them.</p>
+                            <p>Skillsets: <br></br>Arduino, Circuit Design</p>
                         </div>
                     />
                 </Card>

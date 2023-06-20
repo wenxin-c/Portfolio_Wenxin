@@ -38,10 +38,10 @@ function CCASegment(){
                             <div className="genusContent">
                                 <Carousel >
                                     <div>
-                                        <h3 className="photo-wrapper" ><img className = "cca-pic" src={Springtide1} alt="springtide photo1" height='500px' width='100%'/></h3>
+                                        <h3 className="photo-wrapper" ><img className = "cca-pic" src={Springtide2} alt="springtide photo1" height='500px' width='100%'/></h3>
                                     </div>
                                     <div>
-                                        <h3 className="photo-wrapper" ><img className = "cca-pic" src={Springtide2} alt="springtide photo2" height='500px' width='100%'/></h3>
+                                        <h3 className="photo-wrapper" ><img className = "cca-pic" src={Springtide1} alt="springtide photo2" height='500px' width='100%'/></h3>
                                     </div>
                                     <div>
                                         <h3 className="photo-wrapper" ><img className = "cca-pic" src={Springtide3} alt="springtide photo3" height='500px' width='40%'/></h3>

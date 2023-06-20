@@ -15,18 +15,18 @@
     background-color: #e1f0fd;
 }
 
-/* .genus .ant-collapse-content-box{
+.genus .ant-collapse-content-box{
     background-color: aliceblue;
-} */
+}
 
 .ece .ant-collapse-header{
     /* background-color:#d7ccea; */
     background-color:#e3e0f7;
 }
 
-/* .ece .ant-collapse-content-box{
+.ece .ant-collapse-content-box{
     background-color: #efedfb;
-} */
+}
 
 .cca-title{
     font-family:cursive;

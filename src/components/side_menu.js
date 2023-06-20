@@ -18,21 +18,18 @@ function getItem(label, key, icon, children, type) {
 
 const items = [
     getItem(<Link to='/Content'>Overview</Link>, 'sub1', <HeartOutlined />),
-
     getItem('Education', 'sub2', <LaptopOutlined />, [
     getItem(<Link to='/Content/Institutions'>Institutions</Link>, null, null),
     getItem(<Link to='/Content/CCA'>Co-curricular Activities</Link>, null, null),
     getItem(<Link to='/Content/Awards'>Awards</Link>, null, null),]),
     getItem(<Link to='/Content/Skills'>Skillsets</Link>, 'sub3', <RadarChartOutlined />),
-    getItem(<Link to='/Content/Projects'>Projects</Link>, 'sub4', <FileDoneOutlined />,),
-
     getItem(<Link to='/Content/Experience'>Work Experience</Link>, 'sub5', <HistoryOutlined />, ),
-
+    getItem(<Link to='/Content/Projects'>Projects</Link>, 'sub4', <FileDoneOutlined />,),
     getItem('Social Life', 'sub6', <SettingOutlined />, [
     getItem(<Link to='/Content/Kpop'>Kpop</Link>, null, null),
-    getItem('Option 10', '10'),
-    getItem('Option 11', '11'),
-    getItem('Option 12', '12'),
+    // getItem('Option 10', '10'),
+    // getItem('Option 11', '11'),
+    // getItem('Option 12', '12'),
   ]),
 ];
 const onClick = (e) => {

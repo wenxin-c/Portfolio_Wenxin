@@ -8,7 +8,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");
 
-* {
+.card {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -40,6 +40,7 @@
   font-size: larger;
   color: #4a4a7d;
   text-align: center;
+  margin-bottom:0;
 }
 
 .skill-text {
@@ -47,6 +48,10 @@
   font-size: 1rem;
   color: #5e5e89;
   text-align: center;
+}
+
+.skill-text p{
+  margin:0;
 }
 
 .skill-content .card img{

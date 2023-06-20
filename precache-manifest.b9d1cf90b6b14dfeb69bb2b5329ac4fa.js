@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "529f4578562c95024259",
+    "revision": "bb0a294e0f457067b9b8",
     "url": "/wenxin/static/css/main.c441ce1c.chunk.css"
   },
   {
-    "revision": "529f4578562c95024259",
-    "url": "/wenxin/static/js/main.529f4578.chunk.js"
+    "revision": "bb0a294e0f457067b9b8",
+    "url": "/wenxin/static/js/main.bb0a294e.chunk.js"
   },
   {
     "revision": "67ae1e160720b445098f",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/wenxin/static/media/starry night.288ff594.jpg"
   },
   {
-    "revision": "a128e608fc41b0c4da474c9b4f5d2204",
+    "revision": "54a1fdd38404b5ec3f78e79a054a3914",
     "url": "/wenxin/index.html"
   }
 ];

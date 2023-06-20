@@ -21,7 +21,8 @@ import "./styles/app.css"
 
 function App() {
   return (
-    <BrowserRouter basename='/Portfolio_Wenxin'>
+    // <BrowserRouter basename='/Portfolio_Wenxin'>
+    <BrowserRouter basename = "/">
     <ScrollToTop>
         <div className="App">
           <header className="App-header">

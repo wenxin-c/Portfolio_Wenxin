@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.0993b999.chunk.css",
-  "main.js": "/static/js/main.2eb01621.chunk.js",
-  "main.js.map": "/static/js/main.2eb01621.chunk.js.map",
+  "main.js": "/static/js/main.1f2eb915.chunk.js",
+  "main.js.map": "/static/js/main.1f2eb915.chunk.js.map",
   "static/js/1.67ae1e16.chunk.js": "/static/js/1.67ae1e16.chunk.js",
   "static/js/1.67ae1e16.chunk.js.map": "/static/js/1.67ae1e16.chunk.js.map",
   "static/js/2.a16e08eb.chunk.js": "/static/js/2.a16e08eb.chunk.js",
@@ -47,6 +47,6 @@
   "static/media/welcome.css": "/static/media/starry night.288ff594.jpg",
   "static/css/main.0993b999.chunk.css.map": "/static/css/main.0993b999.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.aef0a3b0d4f879b8539881c675fbfdc2.js": "/precache-manifest.aef0a3b0d4f879b8539881c675fbfdc2.js",
+  "precache-manifest.23af4633072e2b8bd41241a7b110b8bb.js": "/precache-manifest.23af4633072e2b8bd41241a7b110b8bb.js",
   "service-worker.js": "/service-worker.js"
 }

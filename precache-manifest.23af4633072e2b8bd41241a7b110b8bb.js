@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2eb016211f137801d6a8",
+    "revision": "1f2eb9155b237e9f778d",
     "url": "/static/css/main.0993b999.chunk.css"
   },
   {
-    "revision": "2eb016211f137801d6a8",
-    "url": "/static/js/main.2eb01621.chunk.js"
+    "revision": "1f2eb9155b237e9f778d",
+    "url": "/static/js/main.1f2eb915.chunk.js"
   },
   {
     "revision": "67ae1e160720b445098f",
@@ -168,7 +168,7 @@ self.__precacheManifest = [
     "url": "/static/media/starry night.288ff594.jpg"
   },
   {
-    "revision": "ec805a144469065f86af34f1c4380965",
+    "revision": "dba69e130d899176ab9a2ff6ecbd2968",
     "url": "/index.html"
   }
 ];

@@ -1,39 +1,39 @@
 self.__precacheManifest = [
   {
-    "revision": "940adf12832ce83d25b2",
-    "url": "/Portfolio_Wenxin/static/css/main.b978cd18.chunk.css"
+    "revision": "f9de042e870647ee99ac",
+    "url": "/Portfolio_Wenxin/static/css/main.5e506c4f.chunk.css"
   },
   {
-    "revision": "940adf12832ce83d25b2",
-    "url": "/Portfolio_Wenxin/static/js/main.940adf12.chunk.js"
+    "revision": "f9de042e870647ee99ac",
+    "url": "/Portfolio_Wenxin/static/js/main.f9de042e.chunk.js"
   },
   {
-    "revision": "1f5482f602f454a15af6",
-    "url": "/Portfolio_Wenxin/static/js/1.1f5482f6.chunk.js"
+    "revision": "67ae1e160720b445098f",
+    "url": "/Portfolio_Wenxin/static/js/1.67ae1e16.chunk.js"
   },
   {
-    "revision": "7bdc7d3670ca1ee0bb5e",
-    "url": "/Portfolio_Wenxin/static/js/2.7bdc7d36.chunk.js"
+    "revision": "545d32e50eb49e222dbf",
+    "url": "/Portfolio_Wenxin/static/js/2.545d32e5.chunk.js"
   },
   {
-    "revision": "31ca2b40d0db8d520d54",
-    "url": "/Portfolio_Wenxin/static/js/runtime~main.31ca2b40.js"
+    "revision": "7c7c3852cf8f264cce38",
+    "url": "/Portfolio_Wenxin/static/js/runtime~main.7c7c3852.js"
   },
   {
-    "revision": "7ef83cdcef1204e323bb5726d4dafdef",
-    "url": "/Portfolio_Wenxin/static/media/intro_background.7ef83cdc.jpg"
+    "revision": "8dea7eeeb70577be0cf13a1b2579c10c",
+    "url": "/Portfolio_Wenxin/static/media/TA_profile.8dea7eee.png"
   },
   {
-    "revision": "06a51a1f037a536d1a3e6c6efa7ddc64",
-    "url": "/Portfolio_Wenxin/static/media/profile_pic1.06a51a1f.png"
+    "revision": "95d11fe73e17a959515edc6bdbed398d",
+    "url": "/Portfolio_Wenxin/static/media/flower.95d11fe7.jpg"
   },
   {
-    "revision": "53a17e816c02e9cae60d2df12e9177bc",
-    "url": "/Portfolio_Wenxin/static/media/nus_logo.53a17e81.jpg"
+    "revision": "89baf975427cad43e10e41e01778f82f",
+    "url": "/Portfolio_Wenxin/static/media/nus.89baf975.png"
   },
   {
-    "revision": "2b833ed98aa8c7785b94fd0549d400ad",
-    "url": "/Portfolio_Wenxin/static/media/cgs_logo.2b833ed9.png"
+    "revision": "261c6bab84d14a61bf4dd4eb32d3bdb3",
+    "url": "/Portfolio_Wenxin/static/media/njc.261c6bab.png"
   },
   {
     "revision": "40fae54cbaf9c5403e7cc697e5d1a0ba",
@@ -56,8 +56,24 @@ self.__precacheManifest = [
     "url": "/Portfolio_Wenxin/static/media/Ongoing.617fb66e.png"
   },
   {
-    "revision": "8dea7eeeb70577be0cf13a1b2579c10c",
-    "url": "/Portfolio_Wenxin/static/media/TA_profile.8dea7eee.png"
+    "revision": "00d18503252e5a8714bf0452a4761516",
+    "url": "/Portfolio_Wenxin/static/media/wellnuspp.00d18503.png"
+  },
+  {
+    "revision": "9dffbf3b2192cf3db26c386b1461219f",
+    "url": "/Portfolio_Wenxin/static/media/grey-dot.9dffbf3b.png"
+  },
+  {
+    "revision": "ad884cd53bc2d736f286843029cbda2a",
+    "url": "/Portfolio_Wenxin/static/media/yellow-dot.ad884cd5.png"
+  },
+  {
+    "revision": "f1bfaa17439fdedbb822e0e1738c8e3b",
+    "url": "/Portfolio_Wenxin/static/media/blue-dot.f1bfaa17.png"
+  },
+  {
+    "revision": "b9ad56d7e99fbe3490e3a38171033508",
+    "url": "/Portfolio_Wenxin/static/media/hdb-img.b9ad56d7.jpg"
   },
   {
     "revision": "524027ff5e089164f817e918ccf64136",
@@ -124,7 +140,35 @@ self.__precacheManifest = [
     "url": "/Portfolio_Wenxin/static/media/timeline.5010e80e.png"
   },
   {
-    "revision": "e55465d78994eeb459bcff86b4aee54a",
+    "revision": "ec70b9c720139f96b6d9f354deb41eb0",
+    "url": "/Portfolio_Wenxin/static/media/seventeen.ec70b9c7.jpg"
+  },
+  {
+    "revision": "66caa788aef4634576a6327dc15ba7f6",
+    "url": "/Portfolio_Wenxin/static/media/exo.66caa788.jpg"
+  },
+  {
+    "revision": "7ef83cdcef1204e323bb5726d4dafdef",
+    "url": "/Portfolio_Wenxin/static/media/intro_background.7ef83cdc.jpg"
+  },
+  {
+    "revision": "2c9ffe3369bb620216d81f43ea7fe1c8",
+    "url": "/Portfolio_Wenxin/static/media/into photo.2c9ffe33.jpg"
+  },
+  {
+    "revision": "53a17e816c02e9cae60d2df12e9177bc",
+    "url": "/Portfolio_Wenxin/static/media/nus_logo.53a17e81.jpg"
+  },
+  {
+    "revision": "2b833ed98aa8c7785b94fd0549d400ad",
+    "url": "/Portfolio_Wenxin/static/media/cgs_logo.2b833ed9.png"
+  },
+  {
+    "revision": "288ff59480caf6e60a513d2beafedeb7",
+    "url": "/Portfolio_Wenxin/static/media/starry night.288ff594.jpg"
+  },
+  {
+    "revision": "f1da35ab1cc0dafa55211e56367c3f29",
     "url": "/Portfolio_Wenxin/index.html"
   }
 ];

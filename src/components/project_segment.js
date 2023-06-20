@@ -37,7 +37,7 @@ const contentDuke = (
         <p>Status: completed</p>
         <p>Date: 13/01/2023 - 03/03/2023</p>
         <p>Description: Duke is a Command Line Personal Assistant Chatbot that help users to 
-        keep track of daily tasks. It enables users to add, update, delete and search for tasks.</p>
+        keep track of daily tasks. It allows users to add, update, delete and search for tasks.</p>
         <p>Tech set: Java</p>
         <p><a href = "https://wenxin-c.github.io/CS2113-Duke/">User Guide</a></p>
     </div>

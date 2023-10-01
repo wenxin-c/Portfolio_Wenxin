@@ -1,11 +1,11 @@
 {
-  "main.css": "/wenxin/static/css/main.c441ce1c.chunk.css",
-  "main.js": "/wenxin/static/js/main.9c05f2f3.chunk.js",
-  "main.js.map": "/wenxin/static/js/main.9c05f2f3.chunk.js.map",
+  "main.css": "/wenxin/static/css/main.3710902e.chunk.css",
+  "main.js": "/wenxin/static/js/main.80cade0b.chunk.js",
+  "main.js.map": "/wenxin/static/js/main.80cade0b.chunk.js.map",
   "static/js/1.67ae1e16.chunk.js": "/wenxin/static/js/1.67ae1e16.chunk.js",
   "static/js/1.67ae1e16.chunk.js.map": "/wenxin/static/js/1.67ae1e16.chunk.js.map",
-  "static/js/2.beafaee1.chunk.js": "/wenxin/static/js/2.beafaee1.chunk.js",
-  "static/js/2.beafaee1.chunk.js.map": "/wenxin/static/js/2.beafaee1.chunk.js.map",
+  "static/js/2.e7d936ae.chunk.js": "/wenxin/static/js/2.e7d936ae.chunk.js",
+  "static/js/2.e7d936ae.chunk.js.map": "/wenxin/static/js/2.e7d936ae.chunk.js.map",
   "runtime~main.js": "/wenxin/static/js/runtime~main.281223ba.js",
   "runtime~main.js.map": "/wenxin/static/js/runtime~main.281223ba.js.map",
   "static/media/TA_profile.png": "/wenxin/static/media/TA_profile.8dea7eee.png",
@@ -45,8 +45,8 @@
   "static/media/nus_logo.jpg": "/wenxin/static/media/nus_logo.53a17e81.jpg",
   "static/media/cgs_logo.png": "/wenxin/static/media/cgs_logo.2b833ed9.png",
   "static/media/welcome.css": "/wenxin/static/media/starry night.288ff594.jpg",
-  "static/css/main.c441ce1c.chunk.css.map": "/wenxin/static/css/main.c441ce1c.chunk.css.map",
+  "static/css/main.3710902e.chunk.css.map": "/wenxin/static/css/main.3710902e.chunk.css.map",
   "index.html": "/wenxin/index.html",
-  "precache-manifest.09afb571eef920314e573e07b2c58f75.js": "/wenxin/precache-manifest.09afb571eef920314e573e07b2c58f75.js",
+  "precache-manifest.76756e90c7815d01979844fa04762578.js": "/wenxin/precache-manifest.76756e90c7815d01979844fa04762578.js",
   "service-worker.js": "/wenxin/service-worker.js"
 }

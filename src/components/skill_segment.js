@@ -29,7 +29,7 @@ function SkillSegment(){
                     <h2 className = "skill-title">Programming Language</h2>
                     <div className = "skill-text">
                         <p>C/C++</p>
-                        <p>Java</p>
+                        <p>Java/Java EE</p>
                         <p>Verilog</p>
                         <p>Baremetal Programming</p>
                     </div>
@@ -42,8 +42,8 @@ function SkillSegment(){
                     <div className = "skill-text">
                         <p>HTML</p>
                         <p>CSS</p>
-                        <p>JavaScript</p>
-                        <p>ReactJS</p>
+                        <p>JavaServerPage(JSP)</p>
+                        <p>JavaScript/ReactJS</p>
                     </div>
                 </div>
 
@@ -52,7 +52,7 @@ function SkillSegment(){
                     <h2 className = "skill-title">Web Back-end Development</h2>
                     <div className = "skill-text">
                         <p>Database/SQL</p>
-                        <p>Java API</p>
+                        <p>Java REST API</p>
                         <p>NodeJS</p>
                         <p>ExpressJS</p>
                     </div>

@@ -5,6 +5,7 @@ import "../styles/welcome.css"
 
 function Welcome() {
     const [btnState, setBtnState] = useState("none");
+    const [textState, setTextState] = useState("none");
 
     const styles = {
         // backgroundImage: "url('../images/starry night.jpg') !important",
@@ -32,8 +33,14 @@ function Welcome() {
     // Render only once after timeout
     useEffect(() => {
         setTimeout(() => {
+          setTextState("block");
+        }, 250);
+      },[]);
+
+    useEffect(() => {
+        setTimeout(() => {
           setBtnState("block");
-        }, 14500);
+        }, 1000);
       },[]);
 
     return (
@@ -42,19 +49,24 @@ function Welcome() {
 
                 {/* Import Typewriter to implememnt typing effect.
                 Specifiy what to type in typeString method */}
-                <Typewriter 
+                {/* <Typewriter 
+                   
 
                 onInit={(typewriter)=> {
                 typewriter
                     .typeString("Hi, I'm Wenxin, an undergraduate major in Computer Engineering at NUS.<br>"
                     + "Click on the button below to check out more about me!"
                     )
-                    .pauseFor(1000)
+                    .pauseFor(0)
                     // .deleteAll()
                     .start();
                     }}
 
-                />
+                /> */}
+                <div className = "exploreText" style={{display:textState, textAlign:'center'}}>
+                    Hi, I'm Wenxin, an undergraduate major in Computer Engineering at NUS.<br/>
+                    Click on the button below to check out more about me!
+                </div>
                 <br></br>
                 <br></br>
 

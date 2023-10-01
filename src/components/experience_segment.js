@@ -52,9 +52,9 @@ function ExperienceSegment(){
                     description=
                         <div>
                             <p>Company: <br></br>Housing Development Board(HDB)</p>
-                            <p>Role: <br></br>Software Engineer Intern, May 2023 - October 2023</p>
+                            <p>Role: <br></br>Software Engineer Intern, May 2023 - Present</p>
                             <p>Job Description: <br></br>The main job is to assist in the development of Portal and Web application 
-                            as well as Java API and Business Analytics Dashboards for Building and Estate Management related systems 
+                            as well as Java APIs and Business Analytics Dashboards for Building and Estate Management related systems 
                             that consists of both Internet-facing e-Services and Intranet modules.</p>
                             <p>Techsets: <br></br>Java EE, JSP</p>
                         </div>
@@ -78,7 +78,7 @@ function ExperienceSegment(){
                     description=
                         <div>
                             <p>Company: <br></br>National University of Singapore</p>
-                            <p>Role: <br></br>Teaching Assistant for module CG2111A, AY22/23 Sem 2 August 2023 - November 2023</p>
+                            <p>Role: <br></br>Teaching Assistant for module CG2111A, AY22/23 Sem 2 January 2023 - April 2023</p>
                             <p>Job Description: <br></br>Guide students during lab experiments and clarify concepts to them.</p>
                             <p>Skillsets: <br></br>Arduino, Raspberry Pi, Circuit Design, TCP/IP</p>
                         </div>
@@ -102,7 +102,7 @@ function ExperienceSegment(){
                     description=
                         <div>
                             <p>Company: <br></br>National University of Singapore</p>
-                            <p>Role: <br></br>Teaching Assistant for module CG1111A, AY22/23 Sem 1, January 2023 - April 2023</p>
+                            <p>Role: <br></br>Teaching Assistant for module CG1111A, AY22/23 Sem 1, August 2022 - November 2022</p>
                             <p>Job Description: <br></br>Guide students during lab experiments and clarify concepts to them.</p>
                             <p>Skillsets: <br></br>Arduino, Circuit Design</p>
                         </div>
